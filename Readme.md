@@ -32,3 +32,15 @@ This Task Manager web application allows users to keep track of their tasks, edi
         Task Deletion: Each task has a delete button to remove it from the task list.
 
 By implementing this Task Manager web application using Node.js, Express.js, and MongoDB, you can provide users with the ability to create, edit, delete, and track their tasks effectively. Feel free to customize the application's features and user interface according to your specific requirements and design preferences.
+
+## Installation
+To install and run the Task Manager NodeJS project, follow the steps below:
+1. Clone the repository by running the following command in your terminal:
+     ```git clone https://github.com/aslezar/Task-Manager-NodeJS.git```
+     2.Navigate to the project directory:```cd Task-Manager-NodeJS```
+2. Install the project dependencies using the Node Package Manager (NPM):: `npm i`
+3. Set up a MongoDB database either locally or using a cloud provider like Atlas. Ensure that you have the connection URL for your MongoDB database handy.
+
+4. Create a .env file in the project's root directory and set the following environment variables:  ```MONGO_URI=your_mongo_connection_url```
+5. Start the server by running the command:```npm start```
+Once the server is running, you can access the application by opening your browser and navigating to http://localhost:3000/. Alternatively, you can use tools like Postman or cURL to send HTTP requests to the provided APIs.
