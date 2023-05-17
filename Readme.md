@@ -121,7 +121,3 @@ Don't forget to give the project a star! Thanks again!
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [Node.js]: https://nodejs.dev/static/images/brand/logos-js-right/dark.svg
-
-```
-
-```
