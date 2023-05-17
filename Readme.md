@@ -102,8 +102,6 @@ To install and run the Task Manager NodeJS project, follow the steps below:
    ```sh
    npm start
    ```
-
-```
    Once the server is running, you can access the application by opening your browser and navigating to http://localhost:3000/. Alternatively, you can use tools like Postman or cURL to send HTTP requests to the provided APIs.
 
 ## Contributing
@@ -123,4 +121,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [Node.js]: https://nodejs.dev/static/images/brand/logos-js-right/dark.svg
+
+```
+
 ```
