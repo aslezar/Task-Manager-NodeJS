@@ -1,4 +1,21 @@
+# Project Name
+
 Task Manager Web Application with CRUD Functionality
+
+## Built With
+
+- [MongoDB](https://www.mongodb.com/) - NoSQL database for storing and retrieving data.
+- [Express.js](https://expressjs.com/) - Web application framework for building robust APIs.
+- [Node.js](https://nodejs.org/) - JavaScript runtime environment for server-side development.
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Install [Node.js](https://nodejs.org/) (including npm) on your local machine.
+- Set up a MongoDB database, either locally or using a cloud provider like Atlas. Obtain the connection URL
+
+## About
 
 This Task Manager web application allows users to keep track of their tasks, edit them, and mark them as completed or incomplete. It is developed using Node.js, Express.js, and MongoDB, providing CRUD (Create, Read, Update, Delete) functionality. Below is an enhanced description of the application's features and components.
 
@@ -34,26 +51,33 @@ This Task Manager web application allows users to keep track of their tasks, edi
 By implementing this Task Manager web application using Node.js, Express.js, and MongoDB, you can provide users with the ability to create, edit, delete, and track their tasks effectively. Feel free to customize the application's features and user interface according to your specific requirements and design preferences.
 
 ## Installation
+
 To install and run the Task Manager NodeJS project, follow the steps below:
+
 1. Clone the repository by running the following command in your terminal:
-    ```sh 
-     git clone https://github.com/aslezar/Task-Manager-NodeJS.git
-     ```
-2.Navigate to the project directory:
-    ```sh 
-     cd Task-Manager-NodeJS
-     ```
-2. Install the project dependencies using the Node Package Manager (NPM):
-    ```sh
-    npm install
-    ```
+   ```sh
+    git clone https://github.com/aslezar/Task-Manager-NodeJS.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+    cd Task-Manager-NodeJS
+   ```
+3. Install the project dependencies using the Node Package Manager (NPM):
+   ```sh
+   npm install
+   ```
 4. Set up a MongoDB database either locally or using a cloud provider like Atlas. Ensure that you have the connection URL for your MongoDB database handy.
-5. Create a .env file in the project's root directory and set the following environment variables:  
-    ```sh
-    MONGO_URI=your_mongo_connection_url
-    ```
+5. Create a .env file in the project's root directory and set the following environment variables:
+   ```sh
+   MONGO_URI=your_mongo_connection_url
+   ```
 6. Start the server by running the command:
-    ```sh
-    npm start
-    ```
-Once the server is running, you can access the application by opening your browser and navigating to http://localhost:3000/. Alternatively, you can use tools like Postman or cURL to send HTTP requests to the provided APIs.
+   `sh
+npm start
+`
+   Once the server is running, you can access the application by opening your browser and navigating to http://localhost:3000/. Alternatively, you can use tools like Postman or cURL to send HTTP requests to the provided APIs.
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[Node.js]: https://nodejs.dev/static/images/brand/logos-js-right/dark.svg
